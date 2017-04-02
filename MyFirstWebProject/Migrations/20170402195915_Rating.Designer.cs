@@ -8,9 +8,10 @@ using MyFirstWebProject.Models;
 namespace MyFirstWebProject.Migrations
 {
     [DbContext(typeof(MyFirstWebProjectContext))]
-    partial class MyFirstWebProjectContextModelSnapshot : ModelSnapshot
+    [Migration("20170402195915_Rating")]
+    partial class Rating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.1")
