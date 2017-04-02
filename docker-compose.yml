@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  myfirstwebproject:
+    image: myfirstwebproject
+    build:
+      context: ./MyFirstWebProject
+      dockerfile: Dockerfile
